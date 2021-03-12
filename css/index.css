@@ -67,9 +67,30 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
+/* navigation */
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: baseline;
+}
+
+.hero {
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* end of navigation */
 
 .top-content {
     display: flex;
@@ -111,6 +132,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* coloring boxes */
+#teal {
+    background: teal;
+}
+#gold {
+    background: gold;
+}
+#cadetblue {
+    background: cadetblue;
+}
+#coral {
+    background: coral;
+}
+#crimson {
+    background: crimson;
+}
+#forestgreen {
+    background: forestgreen;
+}
+#darkorchid {
+    background: darkorchid;
+}
+#hotpikn {
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue {
+    background: dodgerblue;
+}
+/* end of box coloring */
 
 .bottom-content {
     display: flex;
@@ -143,4 +196,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about page */
+.text-container {
+    border-bottom: 1px dashed black;
+    padding: 2%;
+    width: 40%; 
+}
+
+.about-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    width: 100%;
+}
+
+.about-about {
+    width: 90%;
+    border-bottom: 1px dashed black;
+    padding: 2%;
+}
+
+.about-bottom {
+    padding: 2%;
+}
+
+button {
+    padding: 3%;
+    background: white;
+    border-radius: 17px;
+    margin-top: 2%;
+    width: 25%;
 }
