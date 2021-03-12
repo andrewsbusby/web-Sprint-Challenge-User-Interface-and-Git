@@ -70,6 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* navigation */
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: baseline;
+}
+
+.hero {
+    padding: 3%;
+}
 
 .top-content {
     display: flex;
@@ -110,10 +127,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.box .b1 {
-    background: teal;
 }
 
 .bottom-content {
