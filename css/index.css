@@ -132,6 +132,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* coloring boxes */
+#teal {
+    background: teal;
+}
+#gold {
+    background: gold;
+}
+#cadetblue {
+    background: cadetblue;
+}
+#coral {
+    background: coral;
+}
+#crimson {
+    background: crimson;
+}
+#forestgreen {
+    background: forestgreen;
+}
+#darkorchid {
+    background: darkorchid;
+}
+#hotpikn {
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -188,4 +219,11 @@ footer nav a {
 
 .about-bottom {
     padding: 2%;
+}
+button {
+    padding: 3%;
+    background: white;
+    border-radius: 17px;
+    margin-top: 2%;
+    width: 25%;
 }
