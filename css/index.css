@@ -163,6 +163,7 @@ p {
 #dodgerblue {
     background: dodgerblue;
 }
+/* end of box coloring */
 
 .bottom-content {
     display: flex;
@@ -220,6 +221,7 @@ footer nav a {
 .about-bottom {
     padding: 2%;
 }
+
 button {
     padding: 3%;
     background: white;
